@@ -1,23 +1,23 @@
-import { BlogPosts } from "app/components/posts";
-import Image from "next/image";
+import { BlogPosts } from 'app/components/posts';
+import Image from 'next/image';
 
 export default function Page() {
   return (
     <section>
       <div className="flex gap-x-4 items-center flex-row mb-10">
         <Image
-          src={"/image.jpg"}
+          src={'/image.jpg'}
           alt="profile pic"
           width={100}
           height={100}
           className="rounded-full border-[2px] border-yellow-500 -ml-2 hover:grayscale transition-all duration-300"
         />
         <div>
-          <p className="text-xl font-semibold">John Doe</p>
+          <p className="text-xl font-semibold ">Kavishka Sashmitha</p>
           <p className="text-lg text-gray-400">Student at SLIIT</p>
         </div>
       </div>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      <h1 className="mb-8 text-2xl font-semibold tracking-tighter hover:text-amber-200">
         Welcome! 👋
       </h1>
       <p className="mb-4">
